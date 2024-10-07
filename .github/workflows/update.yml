@@ -53,4 +53,7 @@ jobs:
           #plugin_music_time_range: short
           #plugin_music_top_type: tracks
           #plugin_music_user: 8fzhm30kehsrytx64kpfld6m8
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           repositories_batch: 100
